@@ -1,0 +1,27 @@
+Instruction to run:
+
+1. You have to create two different projects named Client and Server respectively.
+
+2. Unzip Client.zip and add all the .java file into the Client project in the package ssl
+   Client.zip conatins : 	
+	a. C_Handshake.java
+	b. DESCBC.java
+	c. DESCFB.java
+	d. PCBC.java
+	e. RC4.java
+	f. RSA.java
+	g. Storage.java
+	
+2. Unzip Server.zip and add all the .java file into the Server project in the package ssl
+   Server.zip conatins : 
+	a. S_Handshake.java
+	b. DESCBC.java
+	c. DESCFB.java
+	d. PCBC.java
+	e. RC4.java
+	f. RSA.java
+	g. Storage.java
+	
+4. Add the text file "hello.txt" into the folder containing the Client project.
+5. Run the S_handshake.java file first and then run the C_ Handshake.java file.	
+6. Use hello.txt as the text file to transfer.
